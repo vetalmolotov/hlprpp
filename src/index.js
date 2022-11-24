@@ -22,5 +22,5 @@ imageBackground.classList.add('image')
 const imagePublic = document.createElement('img')
 imagePublic.src = '/assets/example.png'
 
-const app = document.querySelector('#root')
-app.append(logo, heading, imageBackground, imagePublic)
+// const app = document.querySelector('#root')
+// app.append(logo, heading, imageBackground, imagePublic)
