@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "mixins";
 html {
   font-size: $font-size;
   font-family: $font-family;
@@ -6,16 +7,9 @@ html {
   color: $font-color;
   line-height: 1.4;
 }
-
-//body {
-//  margin: auto;
-//  text-align: center;
-//  max-width: $page-width;
-//}
-
-//h1 {
-//  margin: 0 0 2rem;
-//}
+html, body {
+  height: 100%;
+}
 
 .image {
   display: inline-block;

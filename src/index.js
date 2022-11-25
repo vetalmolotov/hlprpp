@@ -24,3 +24,9 @@ imagePublic.src = '/assets/example.png'
 
 // const app = document.querySelector('#root')
 // app.append(logo, heading, imageBackground, imagePublic)
+const element = document.querySelector(".door");
+element.addEventListener("click", toggleDoor);
+
+function toggleDoor() {
+  element.classList.toggle("doorOpen");
+}
