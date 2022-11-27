@@ -48,9 +48,9 @@ const showTime = 10000; // milliseconds
 const lights = document.querySelectorAll('#background li');
 if (localStorage.getItem('on') === 'true'){
   for (let i = 0; i < lights.length; ++i) {
-    const firstChild = document.querySelector("#background li:not(:last-child)")
+    const allChilds = document.querySelector("#background li:not(:last-child)")
     const lastChild = document.querySelector("#background li:last-child")
-    firstChild.remove()
+    allChilds.remove()
     lights[i].classList.remove('show');
     lastChild.classList.add('show')
   }

@@ -1,17 +1,4 @@
 
-@keyframes door {
-  0% {
-    opacity: 0;
-    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateX(-45deg);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateX(0deg);
-  }
-}
 @keyframes appLogin {
   0% {
     opacity: 0;
